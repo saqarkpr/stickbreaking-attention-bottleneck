@@ -6,8 +6,6 @@ informative. This project constrains it **probabilistically** — a
 stick-breaking variational prior replaces fixed pooling, so the model must
 *commit* to a few tokens instead of averaging over all of them.
 
-📄 **[Technical report (PDF)](report.pdf)** — 4–5 pages: full experimental detail, statistics, and limitations.
-
 **Hypothesis:** that commitment should improve generalization to sequences
 longer than anything seen in training.
 
