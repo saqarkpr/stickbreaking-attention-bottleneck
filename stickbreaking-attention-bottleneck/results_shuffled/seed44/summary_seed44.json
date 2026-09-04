@@ -1,0 +1,36 @@
+{
+  "tag": "seed44",
+  "seed": 44,
+  "train_seq_len": 16,
+  "test_seq_lens": [
+    16,
+    32,
+    64,
+    128
+  ],
+  "steps": 1500,
+  "alpha0": 5.0,
+  "kl_weight": 0.01,
+  "n_params_baseline": 151236,
+  "n_params_nvib": 159686,
+  "per_seq_len": {
+    "16": {
+      "baseline_acc": 1.0,
+      "nvib_acc": 1.0
+    },
+    "32": {
+      "baseline_acc": 1.0,
+      "nvib_acc": 0.99921875
+    },
+    "64": {
+      "baseline_acc": 1.0,
+      "nvib_acc": 0.9640625
+    },
+    "128": {
+      "baseline_acc": 0.99296875,
+      "nvib_acc": 0.57421875
+    }
+  },
+  "training_time_s": 80.55181431770325,
+  "ood_csv": "results_shuffled/seed44/ood_comparison.csv"
+}

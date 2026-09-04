@@ -1,0 +1,5 @@
+seq_len,baseline_acc_mean,baseline_acc_std,bottleneck_acc_mean,bottleneck_acc_std
+16,1.000,0.000,1.000,0.000
+32,1.000,0.000,0.992,0.005
+64,1.000,0.000,0.817,0.088
+128,0.916,0.117,0.556,0.059
